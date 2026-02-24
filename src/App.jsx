@@ -1,7 +1,5 @@
 import './App.css'
 import { Route,Routes } from 'react-router-dom'
-import SideBar from './components/Sidebar/SideBar'
-import Contexto from './components/Contexto/Contexto'
 
 function App() {
   /** 
@@ -14,9 +12,8 @@ function App() {
     </Routes>
    */
   return (
-    <div className='section-contain'>
-      <SideBar></SideBar>
-      <Contexto></Contexto>
+    <div >
+      <h1>Hola</h1>
     </div>
   )
 }
