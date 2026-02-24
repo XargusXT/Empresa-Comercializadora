@@ -1,0 +1,10 @@
+.sidebar{
+    width: 11em;
+    border-radius: 5px;
+    padding-bottom: 95%;
+
+    h3{
+        text-align: center;
+    }
+}
+
