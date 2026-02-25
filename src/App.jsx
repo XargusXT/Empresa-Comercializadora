@@ -14,9 +14,7 @@ function App() {
    */
   return (
     < >
-      <Routes>
-        <Route path='/' element={<PrincipalPage></PrincipalPage>}></Route>
-      </Routes>
+      
     </>
   )
 }
