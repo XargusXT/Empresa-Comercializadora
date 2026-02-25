@@ -1,5 +1,6 @@
 import './App.css'
 import { Route,Routes } from 'react-router-dom'
+import PrincipalPage from './pages/PrincipalPage/PrincipalPage'
 
 function App() {
   /** 
@@ -12,9 +13,11 @@ function App() {
     </Routes>
    */
   return (
-    <div >
-      <h1>Hola</h1>
-    </div>
+    < >
+      <Routes>
+        <Route path='/' element={<PrincipalPage></PrincipalPage>}></Route>
+      </Routes>
+    </>
   )
 }
 
